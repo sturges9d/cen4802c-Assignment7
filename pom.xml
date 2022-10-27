@@ -34,7 +34,7 @@
   			<configuration>
   				<archive>
   					<manifest>
-  						<mainClass>Assignment7.App</mainClass>
+  						<mainClass>cen4802c.Assignment7.App</mainClass>
   					</manifest>
   				</archive>
         	</configuration>
