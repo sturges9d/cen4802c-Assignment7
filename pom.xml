@@ -24,4 +24,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <build>
+  	<finalName>cen4802c-Assignment7</finalName>
+  </build>
 </project>
