@@ -49,6 +49,11 @@ public class AppTest {
 		int sumResult = SingleThreadCount.sumArray(randomArray);
 		assertTrue(sumResult >= 200000000, "Array value is equal to or above 200,000,000.");
 		assertTrue(sumResult <= 2000000000, "Array value is equal to or below 2,000,000,000.");
+		if (sumResult >= 200000000 && sumResult <= 2000000000) {
+			System.out.println("Single Thread Sum Test: Passed");
+		} else {
+			System.out.println("Single Thread Sum Test: Failed");
+		}
 	} // End of singleThreadSumTest.
 	
 	@Test
@@ -67,6 +72,11 @@ public class AppTest {
 		}
 		assertTrue(App.count >= 200000000, "Array value is equal to or above 200,000,000.");
 		assertTrue(App.count <= 2000000000, "Array value is equal to or below 2,000,000,000.");
+		if (App.count >= 200000000 && App.count <= 2000000000) {
+			System.out.println("Multi-Thread Sum Test: Passed");
+		} else {
+			System.out.println("Multi-Thread Sum Test: Failed");
+		}
 	} // End of multithreadSumTest.
 	
 	@AfterEach
