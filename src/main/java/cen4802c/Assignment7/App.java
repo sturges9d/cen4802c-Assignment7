@@ -20,6 +20,7 @@ public class App
 	
     public static void main( String[] args )
     {
+    	System.out.println("Program START");
 		// Multithread method:
 		// First thread.
 		Thread t1 = new Thread(new MultithreadSum());
@@ -42,5 +43,7 @@ public class App
 		
 		// Single thread method:
 		SingleThreadCount.singleThreadSumTimed(randomArray);
+		
+		System.out.println("Program FINISH");
     }
 }
