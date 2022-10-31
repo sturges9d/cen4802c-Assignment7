@@ -102,7 +102,8 @@ public class RandomIntegerArray {
 		Random random = new Random();
 		
 		for (int i = 0; i < (numberOfRandomNumbers); i++) {
-			randomIntArray[i] = random.nextInt(lowerBound, upperBound);
+//			randomIntArray[i] = random.nextInt(lowerBound, upperBound);
+			randomIntArray[i] = random.nextInt(upperBound);
 		} // End of for loop.
 		
 		return randomIntArray;
